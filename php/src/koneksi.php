@@ -2,10 +2,10 @@
 
 $servername = "172.20.0.2";
 $username = "root";
-$password = "";
+$password = "admin";
 $dbname="db_arsip2";
 
-$koneksi = mysqli_connect('172.20.0.2', 'root', '');
+$koneksi = mysqli_connect('172.20.0.2', 'root', 'admin');
 $db = mysqli_select_db($koneksi ,$dbname);
 
 global $conn;
